@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      opacity : 0
+    }
+
+    .app canvas{
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      right: 0;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="w-full h-screen bg-zinc-900  text-white">
+
+    <div class="w-full p-8">
+      <nav class="flex items-center justify-between">
+        <h1 class="text-2xl">Jenil Reshamiya</h1>
+        <div class="flex gap-5">
+          <h3 class="xl">Projects</h3>
+          <h3 class="xl">About</h3>
+          <h3 class="xl">Contact</h3>
+        </div>
+      </nav>
+    </div>
+
+    <div class="w-full h-[40vw] bg-red-900 flex gap-5">
+      <div class="left-part py-24 px-24 w-1/2">
+        <div>
+            <h1  class='text-[3vw] leading-[3.6vw]'>Hello, I'm Jenil Reshamiya</h1>
+            <h1  class='text-[3vw] leading-[3.6vw]'>Web Developer</h1>
+            <h1  class='text-[3vw] leading-[3.6vw]'>Based in India</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rem tempore quidem iste facilis non odio, vero aperiam ad esse eum totam fugiat architecto in assumenda? Voluptas animi dicta, quos eligendi in veniam nulla impedit tenetur non ut similique voluptatum? Quasi doloremque id natus obcaecati quibusdam pariatur a dolor velit!</p>
+        </div>
+      </div>
+      <div class="canvas w-1/2 px-24"> 
+        <div class="images w-full h-[40vw] bg-green-800">
+          <img class="w-full h-full absolute" src="/images/Me.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!-- <div class="canvas w-1/2 relative h-screen"> -->
+      <!-- <a class="text-2xl opacity-60 font-base fixed top-10 right-10" href="">close menu</a> -->
+      <!-- <div class="images w-[45vw] h-[50vw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"> -->
+        <!-- <img class="absolute w-full h-full object-cover" src="/images/Me.jpg" alt=""> -->
+        <!-- <img class="absolute w-full h-full object-cover" src="/images/second.jpg" alt="">
+        <img class="absolute w-full h-full object-cover" src="/images/third.jpg" alt="">
+        <img class="absolute w-full h-full object-cover" src="/images/fourth.jpg" alt=""> -->
+      <!-- </div> -->
+    <!-- </div> -->
+
+
+
+    <!-- <div class="w-1/2 h-screen flex items-center justify-center">
+      <div class="links flex flex-col gap-10">
+        <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl" href=""><small class="text-xl tracking-normal">01.</small>Bello spetttacolo</a>
+        <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl" href=""><small class="text-xl tracking-normal">02.</small>Bello spetttacolo</a>
+        <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl" href=""><small class="text-xl tracking-normal">03.</small>Bello spetttacolo</a>
+        <a class="lowercase transition-all hover:ml-5 opacity-30 hover:opacity-100 block tracking-tighter text-6xl" href=""><small class="text-xl tracking-normal">04.</small>Bello spetttacolo</a>
+      </div>
+    </div> -->
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
